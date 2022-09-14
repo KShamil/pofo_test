@@ -75,7 +75,7 @@ ModeBtn.onclick =()=> {
         darkModeTitle.attributes[0].value = localStorage.getItem('modeTitle');
         localStorage.setItem('modeBtn',modeItem.darkBtn);
         darkBurgerBtn.attributes[0].value = localStorage.getItem('modeBtn');
-        localStorage.setItem('darkLogo',document.querySelector('.white_logo').src = '../images/logo-white@2x.png');
+        localStorage.setItem('darkLogo',document.querySelector('.white_logo').src = 'images/logo-white2x.png');
         localStorage.getItem('darkLogo');
         document.querySelector('.white_logo').src = localStorage.getItem('darkLogo');
         localStorage.setItem('modeBtnColor',ModeBtn.style.color = 'aqua');
@@ -89,7 +89,7 @@ ModeBtn.onclick =()=> {
         darkModeTitle.attributes[0].value = localStorage.getItem('modeTitle');
         localStorage.setItem('modeBtn',modeItem.lightBtn);
         darkBurgerBtn.attributes[0].value = localStorage.getItem('modeBtn');
-        localStorage.setItem('darkLogo',document.querySelector('.white_logo').src = '../images/logo@2x.png');
+        localStorage.setItem('darkLogo',document.querySelector('.white_logo').src = 'images/logo2x.png');
         localStorage.getItem('darkLogo');
         document.querySelector('.white_logo').src = localStorage.getItem('darkLogo');
         localStorage.setItem('modeBtnColor',ModeBtn.style.color = 'yellow');
