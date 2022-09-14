@@ -1,0 +1,199 @@
+
+.wrapper {
+width: 100%;
+min-height: 710px;
+position: relative;
+background: url(../images/homepage-option18-banner.jpg) center center/ cover no-repeat;
+
+.bg-color {
+width: 100%;
+height: 750px;
+top: 0%;
+left: 0%;
+
+.header {
+width: 100%;
+min-height: 100px;
+@include center();
+
+
+.container {
+width: 90%;
+min-height: auto;
+@include between();
+
+.icons {
+width: auto;
+min-height: auto;
+@include center();
+gap: 25px;
+font-size: 14px;
+}
+
+.logo {
+margin-right: 135px;
+.white_logo {
+width: 105px;
+height: 26px;
+}
+}
+
+.btn {
+.burger_btn {
+border: none;
+background-color: transparent;
+font-size: 18px;
+cursor: pointer;
+transition: 0.5s;
+&:hover {
+color: #ff214f;
+}
+
+}
+.lang_btn {
+width: 50px;
+height: 50px;
+border-radius: 50px;
+background-color: aquamarine;
+border: aquamarine;
+cursor: pointer;
+font-size: 15px;
+font-weight: 600;
+color: chocolate;
+}
+
+.light_mode {
+border: none;
+background-color: transparent;
+font-size: 20px;
+color: yellow;
+cursor: pointer;
+}
+
+.mode_btn {
+border: none;
+background-color: transparent;
+font-size: 20px;
+cursor: pointer;
+}
+}
+}
+}
+
+
+.hidden_block {
+position: fixed;
+width: 100%;
+height: 100%;
+@include center();
+background-color: black;
+top: 0%;
+left: 0%;
+
+
+.hidden_container {
+width:90%;
+min-height: 100%;
+@include column();
+
+.hidden_header {
+width: 100%;
+height: 100px;
+@include between();
+
+.hidden_logo {
+img {
+width: 105px;
+height: 26px; 
+}
+}
+
+.hidden_btn {
+
+.second_btn {
+font-size: 20px;
+border: none;
+background-color: transparent;
+color: white;
+cursor: pointer;
+}
+}
+}
+
+.hidden_main {
+width: 100%;
+height: 650px;
+@include center();
+gap: 100px;
+
+.hidden_list {
+transform: translateY(-100px);
+ul {
+li {
+font-size: 52px;
+font-weight: 500;
+color: white;
+margin-top: 40px;
+cursor: pointer;
+transition: 0.5s;
+&:hover {
+color: #ff214f;
+}
+}
+}
+}
+
+.hidden_contact {
+transform: translateY(-100px);
+h2 {
+font-size: 20px;
+line-height: 30px;
+color: #ff214f;
+}
+
+p {
+font-size: 16px;
+font-weight: 300;
+line-height: 30px;
+color: #6f6f6f;
+margin-top: 15px;
+
+.info {
+color: white;
+}
+}
+
+.dash {
+margin-top: 40px;
+width: 120px;
+height: 1px;
+background-color: #ff214f;
+}
+
+.hidden_icons {
+@include start();
+color: #6f6f6f;
+margin-top: 40px;
+gap: 35px;
+}
+}
+}
+}
+}
+}
+}
+
+
+
+#show {
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s;
+}
+
+#hide {
+    opacity: 1;
+    visibility: visible;
+    transition: 1s;
+}
+

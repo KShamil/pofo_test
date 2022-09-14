@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import 'reset';
+@import 'mixin';
+@import 'header';
+@import 'colin';
+@import 'darkmode';
+
+
+.photos {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    img {
+        max-width: 100%;
+        object-fit: cover;
+     }
+}
